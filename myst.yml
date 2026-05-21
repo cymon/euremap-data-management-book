@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 761a9d61-b651-4a60-abe0-43963bb83314
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/euremap/.github
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
