@@ -26,30 +26,25 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install MYST v1 + Dependencies
+      - name: Install MYST v1
         run: |
           python -m pip install --upgrade pip
           pip install mystmd
 
-      - name: Debug: List files in book/
-        run: |
-          ls -la book/
-
-      - name: Build MYST book (with verbose output)
+      - name: Build MYST book
         run: |
           cd book
-          python -m myst build . ../dist || echo "::error::MYST build failed. Full log above."
+          myst build --output-dir ../dist
+        env:
+          PATH: $PATH:/home/runner/.local/bin
 
       - name: Setup Pages
-        if: success()
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
-        if: success()
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
       - name: Deploy to GitHub Pages
-        if: success()
         uses: actions/deploy-pages@v4
