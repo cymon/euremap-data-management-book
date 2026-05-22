@@ -38,7 +38,7 @@ jobs:
 
       - name: Build MYST book
         run: |
-          cd book && myst build . ../dist
+          cd book && myst build --html
         env:
           PATH: $PATH:/home/runner/.local/bin
 
@@ -48,7 +48,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: "./book/_build/html"
 
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
