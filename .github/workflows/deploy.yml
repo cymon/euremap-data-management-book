@@ -33,7 +33,7 @@ jobs:
 
       - name: Build MYST book
         run: |
-          python -m myst build book --output-dir dist
+          cd book && python -m myst build book --output-dir dist
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
