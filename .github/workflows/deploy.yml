@@ -38,8 +38,7 @@ jobs:
 
       - name: Build MYST book
         run: |
-          cd book
-          myst build --output-dir ../dist
+          cd book && myst build . ../dist
         env:
           PATH: $PATH:/home/runner/.local/bin
 
