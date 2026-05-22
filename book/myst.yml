@@ -17,6 +17,7 @@ project:
     - file: biostudies.md
 site:
   template: book-theme
+  url: https://cymon.github.io/euremap-data-management-book
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
