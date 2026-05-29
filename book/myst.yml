@@ -10,6 +10,8 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: frontpage.md
+    - file: openscienece.md
+    - file: datamanagementplan.md
     - file: webinportal.md
     - file: bioproject.md
     - file: biosamples.md
@@ -17,7 +19,7 @@ project:
     - file: biostudies.md
 site:
   template: book-theme
-  url: https://cymon.github.io/euremap-data-management-book
-  # options:
+  options:
+    url: https://cymon.github.io/euremap-data-management-book
   #   favicon: favicon.ico
   #   logo: site_logo.png

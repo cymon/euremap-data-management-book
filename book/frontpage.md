@@ -41,20 +41,26 @@ included in data-specfic repositories.
 
 ## Quick Start
 
-### 1. EMBL ENA Webin Submission Portal
+### 1. Open Science Principles
+    General background information about the importance of data management
+
+### 2. Creating a Data Management Plan (DMP)
+    Create a DMP using the OpenAIRE Argos platform
+
+### 3. EMBL ENA Webin Submission Portal
     Create an account in the ENA Webin Submission Portal
 
-### 2. BioProject/Study
+### 4. BioProject/Study
     Create a BioProject/Study accession from the Webin Portal
 
-### 3. BioSamples
+### 5. BioSamples
     Submit sample metadata to BioSamples through the Webin Portal
 
-### 4. Submit your dataset to a data repository
+### 6. Submit your dataset to a data repository
     Submit your data to an appropriate data repository, referencing both the relevant
     BioSamples and BioProject accessions
 
-### 5. BioStudies
+### 7. BioStudies
     Create a BioStudies accession using the BioStudies Submission Tool and link BioProject,
     BioSamples, additional data files, and all data repository accessions to your
     BioStudies accession

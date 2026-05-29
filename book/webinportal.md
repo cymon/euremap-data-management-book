@@ -1,4 +1,4 @@
-# 1. ENA Webin Submission Portal
+# 3. ENA Webin Submission Portal
 
 ## Preamble
 Through the EMBL Webin Submission Portal you can create BioProject/Study
