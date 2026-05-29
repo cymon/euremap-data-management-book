@@ -58,4 +58,4 @@ Findable, Accessible, Interoperable, and Resusable.
 - If necessary, place an embargo on the date of release of the data set. This
   will not normally be necessary, but is an option. Most all repositories allow
   embargos on data release to be made, but often differ in whether the embargo
-  is automatically or manually finished thereby publising the data.
+  is automatically or manually ended thereby publising the data.
