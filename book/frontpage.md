@@ -1,6 +1,11 @@
 # EUREMAP Data Management
 
-A guide to how data are managed using the [EUREMAP Marine Bioprospecting Pipeline](https://euremap.eu)
+A short guide to how data are managed when using the [EUREMAP Marine Bioprospecting
+Pipeline](https://euremap.eu).
+
+*This material is intended to be read in 20 minutes, give or take... If you have
+any questions or comments please leave an "Issue" in the [book's GitHub
+repository](https://github.com/cymon/euremap-data-management-book/tree/main).*
 
 ## Introduction
 
@@ -44,7 +49,7 @@ included in data-specfic repositories.
 ### 1. Open Science Principles
     General background information about the importance of data management
 
-### 2. Creating a Data Management Plan (DMP)
+### 2. Data Management Plan (DMP)
     Create a DMP using the OpenAIRE Argos platform
 
 ### 3. EMBL ENA Webin Submission Portal
@@ -56,7 +61,7 @@ included in data-specfic repositories.
 ### 5. BioSamples
     Submit sample metadata to BioSamples through the Webin Portal
 
-### 6. Submit your dataset to a data repository
+### 6. Data deposition
     Submit your data to an appropriate data repository, referencing both the relevant
     BioSamples and BioProject accessions
 

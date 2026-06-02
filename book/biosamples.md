@@ -1,13 +1,15 @@
 # 5. BioSamples
 
 ## Preamble
+
 Originally the BioSamples database was where metadata describing sequence data
 submitted to ENA was stored. Today it is a standalone repository where sample
-metadata can be accessioned even if not associated with sequence data. While you
-can still obtain a new BioSamples accession by submitting sample metadata in
-conjuction with sequence data to ENA, this is considered a legacy mechanism.
-Submitters are now encouraged to first register a BioSamples accesssion and
-reference the accession when submitting derived sequence data to ENA.
+metadata can be accessioned even if not associated with sequence data. Indeed,
+you can still obtain a new BioSamples accession by submitting sample metadata in
+conjuction with sequence data to ENA. However, we recommend registering
+BioSamples accesssion(s) first and referencing the accession number when
+submitting derived sequence data to ENA, or data to any of the other data
+repositories.
 
 Because of it's origins and wide range of potential metadata than can be
 included to describe a sample - note that a sample may be many different types

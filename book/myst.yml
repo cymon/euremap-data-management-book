@@ -5,7 +5,12 @@ project:
   title: EUREMAP Project Data Management Book
   description: A description of data management practices in the EUREMAP project
   # keywords: []
-  authors: [Cymon J. Cox & Bruno Louro]
+  authors: 
+    - name: Cymon J. Cox & Bruno Louro
+      affiliations:
+        - name: EUREMAP Consortium - Centro de Ciençias do Mar (CCMAR)
+        - ror: 00me37y22
+  date: 2026-06-02
   github: https://github.com/cymon/euremap-data-management-book
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
@@ -17,6 +22,8 @@ project:
     - file: biosamples.md
     - file: datarepositories.md
     - file: biostudies.md
+  license: CC-BY-4.0
+  open_access: true
 site:
   template: book-theme
   options:
