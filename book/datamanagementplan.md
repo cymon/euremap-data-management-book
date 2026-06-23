@@ -55,7 +55,7 @@ describe all the data sets to be collected by the project.
 - On publishing your completed DMP, it will be accessioned within the Zenodo
   repository where it can be included in the [Zenodo EUREMAP
   Community](https://zenodo.org/communities/euremap/records?q=&l=list&p=1&s=10&sort=newest)
-  space.
+  space. DO NOT PUBLISH TO THE DEFAULT ARGOS COMMUNITY ON ZENODO!
 
 - Several examples of Public Plans using the EUREMAP templates can be found by
   searching in Argos and Zenodo, e.g. [EUREMAP demonstrator project: Enhancing
